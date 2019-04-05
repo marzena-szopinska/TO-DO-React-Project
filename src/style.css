@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+#root {
+
+}
+
+.todo-list {
+  max-width: 475px;
+  text-align: center;
+  background-color: #F6D4F6;
+  margin: 3rem auto 3rem auto;
+  padding-bottom: 1rem;
+  -webkit-box-shadow: 9px 13px 24px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: 9px 13px 24px -12px rgba(0,0,0,0.75);
+  box-shadow: 9px 13px 24px -12px rgba(0,0,0,0.75);
+}
+
+.item {
+  margin: 2rem auto 2rem auto;
+  padding: 1.7rem;
+  width: 80%;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+}
+
+.item:last-of-type {
+  color: red;
+
+}
+
+.title {
+  background-color: purple;
+  color: white;
+  padding: 2rem;
+  text-transform: uppercase;
+}
