@@ -29,7 +29,7 @@ body {
   background-color: white;
   border-bottom: 1px solid gray;
   border-radius: 5px;
-  text-transform: capitalize;
+  text-transform: lowercase;
 }
 
 .item label {
@@ -43,4 +43,25 @@ body {
   padding: 2rem;
   text-transform: uppercase;
   font-family: 'Dokdo', cursive;
+}
+
+
+@media (min-width: 768px) {
+
+  .todo-list {
+    margin: 5rem auto 3rem auto;
+  }
+
+  body {
+    font-size: 1.7rem;
+  }
+
+  .title {
+    font-size: 4.5rem;
+  }
+
+  input[type='checkbox'] {
+    width: 30px;
+    height: 30px;
+  }
 }
