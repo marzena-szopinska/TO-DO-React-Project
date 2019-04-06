@@ -6,19 +6,16 @@
 
 body {
   font-size: 1rem;
+  font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
   line-height: 1.2;
-}
-
-#root {
-
 }
 
 .todo-list {
   max-width: 475px;
   text-align: center;
   background-color: #F6D4F6;
-  margin: 3rem auto 3rem auto;
+  margin: 0 auto 3rem auto;
   padding-bottom: 1rem;
   -webkit-box-shadow: 9px 13px 24px -12px rgba(0,0,0,0.75);
   -moz-box-shadow: 9px 13px 24px -12px rgba(0,0,0,0.75);
@@ -32,16 +29,18 @@ body {
   background-color: white;
   border-bottom: 1px solid gray;
   border-radius: 5px;
+  text-transform: capitalize;
 }
 
-.item:last-of-type {
-  color: red;
-
+.item label {
+  padding-left: 1rem;
 }
 
 .title {
+  font-size: 3rem;
   background-color: purple;
   color: white;
   padding: 2rem;
   text-transform: uppercase;
+  font-family: 'Dokdo', cursive;
 }
