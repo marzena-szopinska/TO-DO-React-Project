@@ -1,10 +1,10 @@
 import React from 'react';
 
-function ToDoItem() {
+function ToDoItem(props) {
   return (
     <div className='item'>
-      <input type='checkbox' id='shopping' />
-      <label for='shopping'>Do Shopping</label>
+      <input type='checkbox' checked={props.completed}/>
+      <p>{props.text}</p>
       <br />
     </div>
   );

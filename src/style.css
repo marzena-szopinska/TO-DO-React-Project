@@ -32,10 +32,13 @@ body {
   border-bottom: 1px solid gray;
   border-radius: 5px;
   text-transform: lowercase;
+  display: flex;
+  justify-content: space-between;
 }
 
-.item label {
+.item p {
   padding-left: 1rem;
+  display: inline-block;
 }
 
 .title {

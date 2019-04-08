@@ -3,17 +3,17 @@ const todosData = [
   {
     id: 1,
     text: 'Take out the trash',
-    completed: true;
+    completed: true
   },
   {
     id: 2,
     text: 'Do shopping',
-    completed: false;
+    completed: false
   },
   {
     id: 3,
     text: 'Mow lawn',
-    completed: false;
+    completed: true
   }
 ];
 
