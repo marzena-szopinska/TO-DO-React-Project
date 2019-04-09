@@ -3,8 +3,8 @@ import React from 'react';
 function ToDoItem(props) {
   return (
     <div className='item'>
-      <input type='checkbox' checked={props.completed} onChange={() => {console.log('something changed!')}}/>
-      <p>{props.text}</p>
+      <input type='checkbox' checked={props.task.completed} onChange={(e) => props.handleChange(props.task.id)}/>
+      <p>{props.task.text}</p>
       <br />
     </div>
   );
