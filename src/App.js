@@ -13,8 +13,8 @@ class App extends React.Component {
 
   render() {
     const todosComponents = this.state.todos.map(function(task){
-    return <ToDoItem key={task.id} text={task.text} completed={task.completed}/>
-  });
+      return <ToDoItem key={task.id} text={task.text} completed={task.completed}/>
+    });
 
     return (
       <div className='todo-list'>
